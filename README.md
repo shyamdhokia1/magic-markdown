@@ -2,7 +2,7 @@
 
 A beautiful text formatter that uses **GPT-4o** to convert plain, unformatted text into nicely formatted Markdown.
 
-### [Check it out here](https://magic-markdown.mercuryred.duckdns.org/)
+### _[Check it out here](https://magic-markdown.mercuryred.duckdns.org/)_
 
 This started off as a project for the freeCodeCamp Front End course but I couldn't help add some LLM magic.
 
