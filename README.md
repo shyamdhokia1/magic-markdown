@@ -11,7 +11,7 @@ This started off as a project for the freeCodeCamp Front End course but I couldn
 - **OpenAI API**
 - **React**
 - **Express**
-- **Node.js**
+- **Vite**
 - **TailwindCSS**
 - **DaisyUI**
 
