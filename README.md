@@ -50,5 +50,7 @@ node server.js
 docker compose up -d
 ```
 
+Much thanks to the incredible courses from [freeCodeCamp](https://github.com/freeCodeCamp)
+
 
 
