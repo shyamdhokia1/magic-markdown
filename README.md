@@ -30,7 +30,7 @@ npm i marked isomorphic-dompurify openai best-effort-json-parser highlight.js re
 
 **Clone the git repo**
 ```
-git clone
+git clone https://github.com/shyamdhokia1/magic-markdown
 ```
 **Run the dev environment**
 ```
