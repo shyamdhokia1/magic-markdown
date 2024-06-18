@@ -1,6 +1,6 @@
 services:
   magic-markdown:
-    container_name: magic-markdown
+    container_name: pomodoro-timer
     volumes:
       - ./:/app
     environment:
