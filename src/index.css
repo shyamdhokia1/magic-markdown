@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('./assets/urbanist.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: rgb(245, 234, 252);
+    font-family: 'Urbanist';
+}
+
+/* markdown styles */
+
+  #format h1 {
+    @apply text-3xl font-bold mb-4 pb-3 pt-4 border-b  border-slate-600
+  }
+  #format h2 {
+    @apply text-2xl font-bold mb-1 pb-1 pt-2
+  }
+  #format h3 {
+    @apply text-lg font-bold py-1 mb-1
+  }
+  
+  #format code {
+    @apply bg-rose-950 rounded-lg text-fuchsia-300 p-1 opacity-85 m-1
+  }
+  
+  #format pre {
+    @apply bg-rose-950 rounded-lg p-3 opacity-85 m-1
+  }
+  
+  #format table {
+    @apply mx-1 my-3 p-2;
+    width: 100%;
+  }
+  
+  #format th,
+  #format td {
+    @apply border border-red-200 p-2
+  }
+  
+  #format th {
+    @apply bg-red-50
+  }
+  
+  #format img {
+    @apply m-1 p-2
+  }
+
+  #format a {
+    @apply text-violet-400 font-bold hover:underline
+  }
+
+  #format ul {
+    @apply list-disc ml-6
+  }
+  #format ol {
+    @apply list-decimal ml-6
+  }
+
+  #format blockquote {
+    @apply border-l-4 border-red-300 pl-4 text-gray-500 m-1
+  }

@@ -1,0 +1,7 @@
+services:
+  magic-markdown:
+    container_name: magic-markdown
+    volumes:
+      - ./:/app
+    environment:
+      NODE_ENV: production
