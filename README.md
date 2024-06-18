@@ -20,6 +20,7 @@ Hosted on my homelab server using **Docker Compose** and **NGINX** reverse proxy
 ## Running Developer Environment and Building
 
 **OpenAI API**
+
 Add your OpenAI API key to `.env`
 
 **Install the dependencies**
